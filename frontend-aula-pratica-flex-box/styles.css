@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.navbar {
+  width: 248px;
+  height: 100vh;
+  background-color: #253a5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 31px 16px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #969090;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  margin-bottom: 20px;
+}
+
+.navbar button {
+  width: 216px;
+  height: 64px;
+  border-radius: 10px;
+  background: #41af1a;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.navbar button:hover {
+  opacity: 0.8;
+}
+
+.main {
+  width: 100%;
+  background-color: #456392;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.cards {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 45px;
+  gap: 10px;
+}
+
+.card {
+  width: 231.288px;
+  height: 352px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 8px solid #ecf3fc;
+}
+
+.card img:hover {
+  opacity: 0.8;
+}
+
+.nomes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  color: #131e30;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card h3 {
+  color: #131e30;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card p {
+  color: #000;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.qtd-seguidores {
+  margin-bottom: 30px;
+}
